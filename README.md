@@ -4,7 +4,7 @@
 
 اللغات المستخدمة في برمجة النظام :
 
-HTML - CSS - JAVASCRIPT (JQUERY) - Pure PHP - MYSQLI DATABASE 
+HTML - CSS (SASS + LESS) - JAVASCRIPT (JQUERY) - Pure PHP - MYSQLI DATABASE 
 
 demo link : http://www.mohamed93kitab.ml/Lab
 
