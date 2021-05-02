@@ -2,6 +2,10 @@
 
 نظام إدارة مختبرات تكنولوجيا المعلومات والاتصالات
 
+اللغات المستخدمة في برمجة النظام :
+
+HTML - CSS - JAVASCRIPT (JQUERY) - Pure PHP - MYSQLI DATABASE 
+
 demo link : http://www.mohamed93kitab.ml/Lab
 
 Login Info :
