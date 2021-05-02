@@ -1,0 +1,617 @@
+.index-body {
+   /*background: url(../img/index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+}
+
+body
+{
+    /*background: url(../img/bg.png);*/
+	background: #eeeeee;
+}
+
+body > img {
+    display: none!important;
+}
+
+.main {
+    background: #f8f9fe !important;
+    height: 100vh;
+}
+table#DataTables_Table_0, table#DataTables_Table_1, table#DataTables_Table_2, table#DataTables_Table_3, table#DataTables_Table_4 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd!important;
+    width: auto!important;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    box-shadow: none !important;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+ul.nav.nav-pills li a {
+    margin-right: 25px;
+    margin-left: -15px;
+}
+select[name='DataTables_Table_0_length'] {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+select[name='DataTables_Table_1_length'] {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+select[name='DataTables_Table_2_length'] {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+select[name='DataTables_Table_3_length'] {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+    /*border: none !important;*/
+    border-bottom: #fff !important;
+}
+
+#DataTables_Table_0_filter label {
+    color: #5e5b5b;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#DataTables_Table_0_length label {
+    color: #5e5b5b;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.right-sidebar {
+    position: fixed;
+    width: 25%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f2f0ff;
+    display: none;
+    overflow-y: auto;
+    border-left: 1px solid #dcd6ff;
+}
+.sidebar-form {
+    position: relative;
+    top: 50px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.toast {
+    box-shadow: none !important;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: 1px solid transparent;
+    background-color: #30a5ff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(100%, #111));
+    background: -webkit-linear-gradient(top, #585858 0%, #111 100%);
+    background: -moz-linear-gradient(top, #585858 0%, #111 100%);
+    background: -ms-linear-gradient(top, #585858 0%, #111 100%);
+    background: -o-linear-gradient(top, #585858 0%, #111 100%);
+    background: linear-gradient(to bottom, #5e72e4 0%, #5e72e4 100%);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid transparent;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #dcdcdc));
+    background: -webkit-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -moz-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -o-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: linear-gradient(to bottom, #5e72e4 0%, #5e72e4 100%);
+}
+
+.form-control {
+    border: 2px solid #5e72e4;
+}
+
+.login {
+    background: #fff !important;
+}
+
+h4.color-white {
+    color: #fff !important;
+}
+
+.student-div,
+.faculty-div
+{
+    cursor: pointer;
+}
+
+.sidebar {
+    border-right: 1px solid #ddd;
+    background: #25233c;
+}
+.sidebar .menu ul li a {
+    color: #eee;
+}
+.sidebar .menu ul li a:hover {
+    color: rgba(0, 0, 0, .6);
+}
+input[type="number"]::-webkit-inner-spin-button, .no-spin::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+    -moz-appearance:textfield !important;
+}
+
+/*.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 50px !important;
+    user-select: none;
+    -webkit-user-select: none;
+    border: 1px solid #30a5ff;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 10px !important;
+    right: 1px;
+    width: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 46px !important;
+    font-size: 18px !important;
+}
+*/
+table#DataTables_Table_1,
+table#DataTables_Table_2,
+table#DataTables_Table_3,
+table#DataTables_Table_4 {
+    width: 100% !important;
+}
+
+span.select2-selection.select2-selection--single {
+    height: 45px !important;
+}
+
+span.select2-selection__placeholder {
+    line-height: 45px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 8px !important;
+}
+
+span.select2-selection.select2-selection--multiple {
+    min-height: 45px;
+}
+
+input.select2-search__field {
+    line-height: 35px;
+}
+
+li.select2-selection__choice {
+    line-height: 30px;
+    width: 100%;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 45px !important;
+}
+
+.custom-panel {
+    border: 1px solid #5e72e4 !important;
+    border-radius: 8px;
+}
+
+.custom-panel > .panel-heading {
+    font-size: 14px;
+    line-height: 20px;
+    background: #5e72e4;
+}
+
+.select2-container {
+    border: 2px solid #5e72e4;
+    border-radius: 2px;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple  {
+    border: none !important;
+}
+
+li.dropdown.pull-right.notification {
+    margin-right: 30px !important;
+}
+
+.badge-primary {
+    background: #5e72e4;
+}
+
+ul.dropdown-menu > li > a {
+    display: block;
+}
+
+.panel-primary > .panel-heading {
+    background: #5e72e4;
+    border: #5e72e4;
+}
+
+h4.text-white {
+    color: #fff;
+}
+
+table#DataTables_Table_5 {
+    width: 100% !important;
+}
+
+table#DataTables_Table_5 {
+    width: 100% !important;
+}
+
+.btn {
+    padding: 10px 12px!important;
+    border-radius: 40px!important;
+}
+
+.dt-buttons.btn-group {
+    background: #5e72e4;
+    border-radius: 35px;
+}
+
+a.btn.btn-default.buttons-copy.buttons-html5.btn-sm.btn-success {
+    background: transparent!important;
+}
+.table-bordered > tbody tr td .btn-group>.btn , .table_member > tbody tr td .btn-group>.btn , .table_room > tbody tr td .btn-group>.btn, .table_user > tbody tr td .btn-group>.btn, .table_roominfo > tbody tr td .btn-group>.btn{
+    background: #5e72e4!important;
+}
+.btn-group>.btn, .btn-group-vertical>.btn {
+    background: transparent;
+}
+a.paginate_button.current {
+    border-radius: 50%!important;
+}
+
+.table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {
+    background-color: #f2f0ff;
+}
+
+/************************
+******* calendar css
+*************************/
+:root {
+    --dark-body: #4d4c5a;
+    --dark-main: #141529;
+    --dark-second: #79788c;
+    --dark-hover: #323048;
+    --dark-text: #f8fbff;
+
+    --light-body: #f3f8fe;
+    --light-main: #fdfdfd;
+    --light-second: #c3c2c8;
+    --light-hover: #edf0f5;
+    --light-text: #151426;
+
+    --blue: #5e72e4;
+    --white: #fff;
+
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    --font-family: cursive;
+}
+
+.dark {
+    --bg-body: var(--dark-body);
+    --bg-main: var(--dark-main);
+    --bg-second: var(--dark-second);
+    --color-hover: var(--dark-hover);
+    --color-txt: var(--dark-text);
+}
+
+.light {
+    --bg-body: var(--light-body);
+    --bg-main: var(--light-main);
+    --bg-second: var(--light-second);
+    --color-hover: var(--light-hover);
+    --color-txt: var(--light-text);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#calendar {
+    place-items: center;
+    font-family: var(--font-family);
+    background-color: var(--bg-body);
+}
+
+.calendar {
+    background-color: var(--bg-main);
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    /* transform: scale(1.25); */
+}
+
+.light .calendar {
+    box-shadow: var(--shadow);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--color-txt);
+    padding: 10px;
+}
+
+.calendar-body {
+    padding: 10px;
+}
+
+.calendar-week-day {
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: 600;
+}
+
+.calendar-week-day div {
+    display: grid;
+    place-items: center;
+    color: var(--bg-second);
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    color: var(--color-txt);
+}
+
+.calendar-days div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    animation: to-top 1s forwards;
+    /* border-radius: 50%; */
+}
+
+.calendar-days div span {
+    position: absolute;
+}
+
+.calendar-days div:hover span {
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+.calendar-days div span:nth-child(1),
+.calendar-days div span:nth-child(3) {
+    width: 2px;
+    height: 0;
+    background-color: var(--color-txt);
+}
+
+.calendar-days div:hover span:nth-child(1),
+.calendar-days div:hover span:nth-child(3) {
+    height: 100%;
+}
+
+.calendar-days div span:nth-child(1) {
+    bottom: 0;
+    left: 0;
+}
+
+.calendar-days div span:nth-child(3) {
+    top: 0;
+    right: 0;
+}
+
+.calendar-days div span:nth-child(2),
+.calendar-days div span:nth-child(4) {
+    width: 0;
+    height: 2px;
+    background-color: var(--color-txt);
+}
+
+.calendar-days div:hover span:nth-child(2),
+.calendar-days div:hover span:nth-child(4) {
+    width: 100%;
+}
+
+.calendar-days div span:nth-child(2) {
+    top: 0;
+    left: 0;
+}
+
+.calendar-days div span:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}
+
+.calendar-days div:hover span:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.calendar-days div:hover span:nth-child(3) {
+    transition-delay: 0.4s;
+}
+
+.calendar-days div:hover span:nth-child(4) {
+    transition-delay: 0.6s;
+}
+
+.calendar-days div.curr-date,
+.calendar-days div.curr-date:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 50%;
+}
+
+.calendar-days div.curr-date span {
+    display: none;
+}
+
+.month-picker {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.month-picker:hover {
+    background-color: var(--color-hover);
+}
+
+.year-picker {
+    display: flex;
+    align-items: center;
+}
+
+.year-change {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.year-change:hover {
+    background-color: var(--color-hover);
+}
+
+.calendar-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.toggle {
+    display: flex;
+}
+
+.toggle span {
+    margin-right: 10px;
+    color: var(--color-txt);
+}
+
+.dark-mode-switch {
+    position: relative;
+    width: 48px;
+    height: 25px;
+    border-radius: 14px;
+    background-color: var(--bg-second);
+    cursor: pointer;
+}
+
+.dark-mode-switch-ident {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: var(--bg-main);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.2s ease-in-out;
+}
+
+.dark .dark-mode-switch .dark-mode-switch-ident {
+    top: 2px;
+    left: calc(2px + 50%);
+}
+
+.month-list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-main);
+    padding: 20px;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    display: grid;
+    transform: scale(1.5);
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.month-list.show {
+    transform: scale(1);
+    visibility: visible;
+    pointer-events: visible;
+    transition: all 0.2s ease-in-out;
+}
+
+.month-list > div {
+    display: grid;
+    place-items: center;
+}
+
+.month-list > div > div {
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--color-txt);
+}
+
+.month-list > div > div:hover {
+    background-color: var(--color-hover);
+}
+
+@keyframes to-top {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+pre {
+    background: transparent;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0!important;
+}
